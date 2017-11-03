@@ -1,0 +1,1 @@
+# nicehash-monitor
