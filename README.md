@@ -6,6 +6,8 @@
 # Компиляция
 
 ```sh
+git clone https://github.com/nik90000/nicehash-monitor.git
+cd nicehash-monitor
 electron-forge make
 ```
 # Лицензия
