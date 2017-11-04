@@ -10,5 +10,8 @@ git clone https://github.com/nik90000/nicehash-monitor.git
 cd nicehash-monitor
 electron-forge make
 ```
+# Проблемы
+Если обновлять статистику слишком часто, то API выдаст ошибку.
+
 # Лицензия
 MIT
