@@ -87,6 +87,9 @@ function deleteAll() {
 
 //Лучше не пытаться понять что дальше. Это черетовато перегрузкой разума
 function mainStart() {
+	$("#p2").css("display", "block");
+	$("#workerslist").empty();
+	$("#workerslist").append('<div class="mdl-cell mdl-cell--3-col"><h5 style="margin-top: 0">Колличество воркеров</h5><h3 style="margin-bottom: 0"><strong id="workersam">0</strong></h3></div>');
 	$.ajax({
 	  url: 'https://api.nicehash.com/api?method=balance&my&id=' + settings.get('API').apiid + '&key=' + settings.get('API').apikey,
 	  success: function(data) {
