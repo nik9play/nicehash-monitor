@@ -1,3 +1,6 @@
+# DEPRECATED / ОТМЕНЕНО
+Здесь используется устаревший Elctron 1.7.9 с уязвимостью, если хотите использовать, обновите.
+
 # NiceHash Monitor
 Отображает статистику для вашего кошелька NiceHash.
 [Официальный сайт](https://megaworldnetwork.ru/nicehash-monitor)
